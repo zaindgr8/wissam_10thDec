@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 345 108">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-1, .cls-2 {
+        opacity: .8;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        mix-blend-mode: color-dodge;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+        opacity: .28;
+      }
+
+      .cls-4, .cls-9 {
+        mix-blend-mode: overlay;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8 {
+        mix-blend-mode: multiply;
+        opacity: .6;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-10 {
+        isolation: isolate;
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="689.62" y1="-69.05" x2="835.89" y2="77.22" gradientTransform="translate(109.64 -767.76) rotate(90) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".15" stop-color="#414350"/>
+      <stop offset=".46" stop-color="#b0d1d3"/>
+      <stop offset=".53" stop-color="#abccd0"/>
+      <stop offset=".61" stop-color="#9dbfca"/>
+      <stop offset=".69" stop-color="#87a8c0"/>
+      <stop offset=".75" stop-color="#7092b6"/>
+      <stop offset=".85" stop-color="#67849e"/>
+      <stop offset="1" stop-color="#5c747f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="122.85" y1="-67.17" x2="284.48" y2="236.34" gradientTransform="translate(109.64 276.43) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e0edf9"/>
+      <stop offset=".01" stop-color="#c1cfd8"/>
+      <stop offset=".03" stop-color="#929fa5"/>
+      <stop offset=".05" stop-color="#6b787b"/>
+      <stop offset=".07" stop-color="#4c5a5a"/>
+      <stop offset=".09" stop-color="#364443"/>
+      <stop offset=".11" stop-color="#293734"/>
+      <stop offset=".12" stop-color="#253330"/>
+      <stop offset=".24" stop-color="#677d7b"/>
+      <stop offset=".32" stop-color="#90abaa"/>
+      <stop offset=".37" stop-color="#a0bdbd"/>
+      <stop offset=".39" stop-color="#95bbc0"/>
+      <stop offset=".43" stop-color="#79b6c9"/>
+      <stop offset=".49" stop-color="#4caed9"/>
+      <stop offset=".5" stop-color="#47aedb"/>
+      <stop offset=".52" stop-color="#3a8bad"/>
+      <stop offset=".58" stop-color="#244e5d"/>
+      <stop offset=".61" stop-color="#16282b"/>
+      <stop offset=".63" stop-color="#111a18"/>
+      <stop offset=".66" stop-color="#111c1a"/>
+      <stop offset=".68" stop-color="#132323"/>
+      <stop offset=".69" stop-color="#172f33"/>
+      <stop offset=".71" stop-color="#1c4049"/>
+      <stop offset=".72" stop-color="#235665"/>
+      <stop offset=".74" stop-color="#2c7187"/>
+      <stop offset=".75" stop-color="#3691b0"/>
+      <stop offset=".76" stop-color="#3ca4c8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="723.25" y1="-5.38" x2="915.65" y2="129.34" gradientTransform="translate(109.64 -767.76) rotate(90) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".02" stop-color="#bababa"/>
+      <stop offset=".13" stop-color="#d5d5d5"/>
+      <stop offset=".25" stop-color="#ececec"/>
+      <stop offset=".37" stop-color="#fafafa"/>
+      <stop offset=".47" stop-color="#fff"/>
+      <stop offset=".91" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="725.16" y1="-32.31" x2="913.74" y2="156.27" gradientTransform="translate(109.64 -767.76) rotate(90) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dde5ec"/>
+      <stop offset=".25" stop-color="#f1f4f7"/>
+      <stop offset=".48" stop-color="#fff"/>
+      <stop offset=".6" stop-color="#fafafa"/>
+      <stop offset=".73" stop-color="#eee"/>
+      <stop offset=".86" stop-color="#dadada"/>
+      <stop offset=".99" stop-color="#bdbdbd"/>
+      <stop offset="1" stop-color="#bababa"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="577.05" cy="5232.62" fx="577.05" fy="5232.62" r="33.88" gradientTransform="translate(-1926.85 270.14) scale(3.63 -.03)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".08" stop-color="#f8f8f8"/>
+      <stop offset=".19" stop-color="#e6e6e6"/>
+      <stop offset=".32" stop-color="#c9c9c9"/>
+      <stop offset=".47" stop-color="#a1a1a1"/>
+      <stop offset=".62" stop-color="#6c6c6c"/>
+      <stop offset=".78" stop-color="#2e2e2e"/>
+      <stop offset=".89" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="582.09" cy="6794.92" fx="582.09" fy="6794.92" r="34.01" gradientTransform="translate(-1749.65 221.69) scale(3.31 -.03)" xlink:href="#radial-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="290.05" y1="-13.44" x2="145" y2="115.88" gradientUnits="userSpaceOnUse">
+      <stop offset=".15" stop-color="#e0edf9"/>
+      <stop offset=".16" stop-color="#c1cfd8"/>
+      <stop offset=".19" stop-color="#929fa5"/>
+      <stop offset=".21" stop-color="#6b787b"/>
+      <stop offset=".23" stop-color="#4c5a5a"/>
+      <stop offset=".25" stop-color="#364443"/>
+      <stop offset=".27" stop-color="#293734"/>
+      <stop offset=".28" stop-color="#253330"/>
+      <stop offset=".32" stop-color="#677d7b"/>
+      <stop offset=".35" stop-color="#90abaa"/>
+      <stop offset=".37" stop-color="#a0bdbd"/>
+      <stop offset=".39" stop-color="#95bbc0"/>
+      <stop offset=".43" stop-color="#79b6c9"/>
+      <stop offset=".49" stop-color="#4caed9"/>
+      <stop offset=".5" stop-color="#47aedb"/>
+      <stop offset=".52" stop-color="#3a8bad"/>
+      <stop offset=".58" stop-color="#244e5d"/>
+      <stop offset=".61" stop-color="#16282b"/>
+      <stop offset=".63" stop-color="#111a18"/>
+      <stop offset=".66" stop-color="#131c1a"/>
+      <stop offset=".67" stop-color="#1c2523"/>
+      <stop offset=".69" stop-color="#2c3432"/>
+      <stop offset=".7" stop-color="#424947"/>
+      <stop offset=".71" stop-color="#5e6463"/>
+      <stop offset=".73" stop-color="#818584"/>
+      <stop offset=".74" stop-color="#aaadac"/>
+      <stop offset=".75" stop-color="#d8dad9"/>
+      <stop offset=".76" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="215.24" y1="-91.15" x2="76.91" y2="32.18" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g class="cls-10">
+    <g id="Layer_4" data-name="Layer 4">
+      <g>
+        <path class="cls-8" d="m37.67,13.33c-14.84,0-20,8.59-20,17.66v51.59c0,4.62,7.3,6.69,8.89,7.75-6.19-2.77-10.41-6.74-10.41-13.01V28.02c0-9.07,8.81-16.42,19.67-16.42l275.18-.48c2.02,0,4,.74,6.5,2.12l-279.83.08Z"/>
+        <path class="cls-5" d="m310.37,93.54H32.53c-8.13-.26-15.36-5.74-17.94-13.64l1.72,5.86c3.53,10.66,17.25,11.46,22.53,11.46h269.59c12.57,0,22.15-9.34,22.15-18.8l-.08-43.25c0-3.37.56-6.7-1.33-9.35l.17,47.83c0,9.46-8.36,19.89-18.97,19.89Z"/>
+        <path class="cls-4" d="m32.89,93.81h277.45c10.56,0,19.12-8.85,19.12-19.77V29.35c0-10.92-8.56-19.77-19.12-19.77H32.89c-10.56,0-19.12,8.85-19.12,19.77v44.69c0,10.92,8.56,19.77,19.12,19.77Z"/>
+        <path class="cls-9" d="m32.89,93.81h277.45c10.56,0,19.12-8.85,19.12-19.77V29.35c0-10.92-8.56-19.77-19.12-19.77H32.89c-10.56,0-19.12,8.85-19.12,19.77v44.69c0,10.92,8.56,19.77,19.12,19.77Zm1.44-2.14c-10.02,0-18.52-5.16-18.47-17.75V30.33c.14-13.52,10.98-19.36,21.01-19.36l272.88.15c10.02,0,17.75,8.05,17.75,18.5v43.44c0,10.45-9.11,18.6-19.13,18.6H34.33Z"/>
+        <path class="cls-1" d="m315.67,93.18c0-.72-53.84-1.32-131.65-1.32s-159.31-.15-159.31.58,81.19,1.11,158.99,1.11,131.96.35,131.96-.37Z"/>
+        <path class="cls-2" d="m310.09,10.76c0-.66-50.55-1.21-121.41-1.21s-145.09-.13-145.09.53,73.94,1.02,144.8,1.02,121.7.32,121.7-.34Z"/>
+        <image class="cls-3" width="6" height="218" transform="translate(14.4 25.44) scale(.24)" xlink:href="data:image/png;base64,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"/>
+        <image class="cls-3" width="6" height="226" transform="translate(327.84 24.72) scale(.24)" xlink:href="data:image/png;base64,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"/>
+        <path class="cls-7" d="m330.5,35.17c0-3.37.25-6.17-.83-8.08,0,0,.5,4.65.5,7.46l.08,43.25c0,9.46-10,18.8-22.57,18.8H38.09c-3.85,0-12.19-.43-17.8-4.8,5.58,4.95,14.52,5.42,18.55,5.42h269.59c12.57,0,22.15-9.34,22.15-18.8l-.08-43.25Z"/>
+        <path class="cls-6" d="m16.31,85.76l-.82-2.8c-.66-1.16-1.22-2.38-1.65-3.68l1.72,5.86c.96,2.88,2.66,5.04,4.73,6.66-1.73-1.54-3.15-3.51-3.98-6.03Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

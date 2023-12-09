@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Isolation_Mode" data-name="Isolation Mode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 212">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g>
+    <polyline class="cls-1" points="223.26 134.81 174.05 78.86 66.15 78.86"/>
+    <path class="cls-2" d="m216.51,134.81c0,3.72,3.02,6.74,6.74,6.74s6.74-3.02,6.74-6.74-3.02-6.74-6.74-6.74-6.74,3.02-6.74,6.74Z"/>
+  </g>
+  <polygon class="cls-2" points="128.12 68.84 18.39 68.84 18.39 79.75 136.91 79.75 128.12 68.84"/>
+</svg>

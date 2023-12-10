@@ -1,6 +1,25 @@
 import React, { useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import { Anchor, Link } from '../components/AllSvgs'
+import button from "../assets1/screen4/button.png";
+
+
+const Div0 = styled.div`
+  top: 120px;
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust the gap between Div and Div1 */
+`;
+const Div01 = styled.div`
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px; /* Adjust the gap between Div and Div1 */
+`;
+
 
 const Container = styled.div`
 position: relative;
@@ -14,10 +33,9 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 transform: translateY(-100%);
-
+color:white;
 .chain{
 transform: rotate(135deg);
-
 }
 
 `
@@ -66,21 +84,26 @@ const AnchorComponent = (props) => {
 
 
     return (
-        <Container>
-        <PreDisplay ref={hiddenRef} className='hidden'>
-    
-        <Anchor width={70} height={70} fill='currentColor'/>
-    </PreDisplay>
-            <Slider ref={ref}>
-                {
-                    [...Array(props.number)].map((x,id) => {
-                        return <Link key={id} width={25} height={25} fill='currentColor' className="chain" />
-                    })
-                }
-                <Anchor width={70} height={70} fill='currentColor'/>
-            </Slider>
-        </Container>
-    )
+      <Container>
+        <PreDisplay ref={hiddenRef} className="hidden">
+          <Anchor width={70} height={70} fill="white" />
+        </PreDisplay>
+        <Slider ref={ref}>
+          {[...Array(props.number)].map((x, id) => {
+            return (
+              <Link
+                key={id}
+                width={25}
+                height={25}
+                fill="currentColor"
+                className="chain"
+              />
+            );
+          })}
+          <Anchor width={70} height={70} fill="currentColor" />
+        </Slider>
+      </Container>
+    );
 }
 
 export default AnchorComponent

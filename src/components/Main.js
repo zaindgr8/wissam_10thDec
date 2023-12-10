@@ -9,6 +9,7 @@ import { YinYang } from "./AllSvgs";
 import Intro from "./Intro";
 import bg from "../assets1/danish/screen1.mp4";
 import logo from "../assets1/wisamlogo1.png"
+import { BiSupport } from "react-icons/bi";
 import "./customfont.css"
 
 const MainContainer = styled.div`
@@ -34,7 +35,7 @@ const Container = styled.div`
 `;
 
 const Contact = styled.a`
-  color: ${(props) => props.theme.text};
+  color: white;
   position: absolute;
   top: 2rem;
   right: calc(1rem + 2vw);
@@ -42,7 +43,7 @@ const Contact = styled.a`
   z-index: 1;
 `;
 const BLOG = styled(NavLink)`
-  color: ${(props) => props.theme.text};
+  color: white;
   position: absolute;
   top: 50%;
   right: calc(1rem + 2vw);
@@ -187,7 +188,7 @@ const Main = () => {
             </span>
           </Center>
 
-          <Contact target="_blank" href="mailto:codebucks27@gmail.com">
+          <Contact target="_blank" href="mailto:info@wissambywissam.com">
             <motion.h2
               initial={{
                 y: -200,
@@ -200,7 +201,7 @@ const Main = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              Say hi..
+              24/7 Support <BiSupport  />
             </motion.h2>
           </Contact>
           <BLOG to="/blog">
@@ -216,7 +217,7 @@ const Main = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              Blog
+              Explore Perfumes
             </motion.h2>
           </BLOG>
           <WORK to="/" click={+click}>
@@ -268,7 +269,7 @@ const Main = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                Our Stars
+                Our Collection
               </motion.h2>
             </SKILLS>
           </BottomBar>
